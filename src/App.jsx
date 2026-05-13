@@ -104,11 +104,27 @@ const HomePage = () => {
         </p>
       </motion.header>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-        {games.map((game, i) => (
-          <GameCard key={game.id} game={game} index={i} />
-        ))}
-      </div>
+      {games.length > 0 ? (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+          {games.map((game, i) => (
+            <GameCard key={game.id} game={game} index={i} />
+          ))}
+        </div>
+      ) : (
+        <motion.div 
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          className="py-24 border-2 border-dashed border-black/5 dark:border-white/5 rounded-3xl flex flex-col items-center justify-center text-center gap-4"
+        >
+          <div className="bg-black/5 dark:bg-white/5 p-6 rounded-full">
+            <LayoutGrid className="w-8 h-8 text-black/20 dark:text-white/20" />
+          </div>
+          <div className="flex flex-col gap-1">
+            <h3 className="font-display text-2xl font-black uppercase tracking-tight">Library Offline</h3>
+            <p className="text-sm font-mono text-black/40 dark:text-white/40 uppercase tracking-widest">Awaiting intake instructions...</p>
+          </div>
+        </motion.div>
+      )}
       
       <footer className="mt-32 pb-12 border-t border-black/5 dark:border-white/5 pt-12 flex flex-col md:flex-row justify-between items-center gap-8 font-mono text-[10px] text-black/30 dark:text-white/30 uppercase tracking-[0.2em]">
         <div className="flex items-center gap-3">
