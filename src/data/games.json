@@ -1,0 +1,66 @@
+[
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "The classic tile-merging puzzle game. Reach the 2048 tile!",
+    "thumbnail": "https://images.unsplash.com/photo-1614332287897-cdc485fa562d?auto=format&fit=crop&q=80&w=400",
+    "iframeUrl": "https://play2048.co/",
+    "category": "Puzzle"
+  },
+  {
+    "id": "hextris",
+    "title": "Hextris",
+    "description": "A fast-paced puzzle game where you rotate a hexagon to match colors.",
+    "thumbnail": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&q=80&w=400",
+    "iframeUrl": "https://hextris.io/",
+    "category": "Arcade"
+  },
+  {
+    "id": "tower-game",
+    "title": "Tower Building",
+    "description": "Stack blocks as high as you can to build the tallest tower.",
+    "thumbnail": "https://images.unsplash.com/photo-1486572788966-cfd3df1f5b42?auto=format&fit=crop&q=80&w=400",
+    "iframeUrl": "https://www.towergame.app/",
+    "category": "Skill"
+  },
+  {
+    "id": "cookie-clicker",
+    "title": "Cookie Clicker",
+    "description": "The original idle game that started it all. Click the cookie!",
+    "thumbnail": "https://images.unsplash.com/photo-1499195333224-3ce974eecfb4?auto=format&fit=crop&q=80&w=400",
+    "iframeUrl": "https://orteil.dashnet.org/cookieclicker/",
+    "category": "Idle"
+  },
+  {
+    "id": "paper-io-2",
+    "title": "Paper.io 2",
+    "description": "Capture territory by drawing loops. Don't let others hit your tail!",
+    "thumbnail": "https://images.unsplash.com/photo-1635241936322-870610996841?auto=format&fit=crop&q=80&w=400",
+    "iframeUrl": "https://paper-io.com/",
+    "category": "IO"
+  },
+  {
+    "id": "slither-io",
+    "title": "Slither.io",
+    "description": "The modern take on Snake. Grow your worm and dominate the arena.",
+    "thumbnail": "https://images.unsplash.com/photo-1628155930542-3c7a64e2c833?auto=format&fit=crop&q=80&w=400",
+    "iframeUrl": "http://slither.io/",
+    "category": "IO"
+  },
+  {
+    "id": "dino-run",
+    "title": "Chrome Dino",
+    "description": "The legendary offline dinosaur runner. Jump the cacti!",
+    "thumbnail": "https://images.unsplash.com/photo-1605462863863-10d9e47e15ee?auto=format&fit=crop&q=80&w=400",
+    "iframeUrl": "https://chromedino.com/",
+    "category": "Runner"
+  },
+  {
+    "id": "wordle",
+    "title": "Wordle",
+    "description": "Guess the five-letter word in six tries. A daily challenge.",
+    "thumbnail": "https://images.unsplash.com/photo-1643123233182-ed138d810ba4?auto=format&fit=crop&q=80&w=400",
+    "iframeUrl": "https://www.nytimes.com/games/wordle/index.html",
+    "category": "Puzzle"
+  }
+]
